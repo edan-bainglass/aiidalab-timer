@@ -34,6 +34,10 @@ If configured, the timer app container will display the following:
 
 ![alt text](misc/image3.png)
 
+- Time not configured
+
+![alt text](misc/image4.png)
+
 ## License
 
 MIT
