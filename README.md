@@ -1,6 +1,6 @@
 # AiiDAlab Timer
 
-An app displaying a timer in its aiidalab-home container
+An app to display a timer in its aiidalab-home container. The timer represents a countdown from an AiiDAlab-container-configured lifetime (`.aiidalab/aiidalab.yaml:lifetime`).
 
 ## Installation
 
@@ -20,7 +20,19 @@ aiidalab install aiidalab-timer@https://github.com/edan-bainglass/aiidalab-timer
 
 ## Usage
 
-Here may go a few sreenshots / animated gifs illustrating how to use the app.
+If configured, the timer app container will display the following:
+
+- Time > 30 minutes
+
+![alt text](misc/image1.png)
+
+- Time < 30 minutes
+
+![alt text](misc/image2.png)
+
+- Time < 5 minutes
+
+![alt text](misc/image3.png)
 
 ## License
 
