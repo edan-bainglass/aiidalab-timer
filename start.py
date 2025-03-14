@@ -12,7 +12,11 @@ from IPython.display import Javascript, display
 
 _ = load_profile()
 
-TEMPLATE = "<div class='app-container'>{}</div>"
+TEMPLATE = """
+    <div class="app-container">
+        <div id="timer">{}</div>
+    </div>
+"""
 
 logger = logging.getLogger(__name__)
 
@@ -60,7 +64,7 @@ class Timer(ipw.HTML):
     def __init__(self, duration, *args, **kwargs):
         self.duration = duration
         super().__init__(
-            value=TEMPLATE.format("<div id='timer'></div>"),
+            value=TEMPLATE.format(""),
             *args,
             **kwargs,
         )
